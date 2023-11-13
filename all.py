@@ -68,10 +68,10 @@ def task3b():
 
     harmonic_mean = k / sum_nums  # Calculate the harmonic mean
 
-    print("The arithmetic mean:", mean1, "the harmonic mean:", harmonic_mean, sep='\n')  # Output the result
+    print("The harmonic mean:", harmonic_mean)  # Output the result
 
 
-def task3c:
+def task3c():
     n, k = map(int, input().split())  # Enter the values of n and k separated by a space and convert them to integers
     max_num = None
 
